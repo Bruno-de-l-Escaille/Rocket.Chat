@@ -1,11 +1,6 @@
 accounts-base@1.4.0
-accounts-facebook@1.3.0
-accounts-github@1.4.0
-accounts-google@1.3.0
-accounts-meteor-developer@1.4.0
 accounts-oauth@1.1.15
 accounts-password@1.5.0
-accounts-twitter@1.4.0
 aldeed:simple-schema@1.5.3
 aldeed:template-extension@4.1.0
 allow-deny@1.1.0
@@ -48,7 +43,6 @@ facebook-oauth@1.4.0
 fastclick@1.0.13
 francocatena:status@1.5.3
 geojson-utils@1.0.10
-github-oauth@1.2.0
 google-oauth@1.2.4
 hot-code-push@1.0.4
 html-tools@1.0.11
@@ -80,7 +74,6 @@ matb33:collection-hooks@0.8.4
 mdg:validation-error@0.5.1
 meteor@1.8.1
 meteor-base@1.2.0
-meteor-developer-oauth@1.2.0
 meteorhacks:inject-initial@1.0.4
 meteorhacks:meteorx@1.4.1
 meteorspark:util@0.2.0
@@ -109,8 +102,6 @@ oauth2@1.2.0
 observe-sequence@1.0.16
 ordered-dict@1.0.9
 ostrio:cookies@2.2.3
-pauli:accounts-linkedin@2.1.3
-pauli:linkedin-oauth@1.2.0
 percolate:synced-cron@1.3.2
 promise@0.10.0
 raix:eventemitter@0.1.3
@@ -142,7 +133,6 @@ rocketchat:crowd@1.0.0
 rocketchat:custom-oauth@1.0.0
 rocketchat:custom-sounds@1.0.0
 rocketchat:dolphin@0.0.2
-rocketchat:drupal@0.0.1
 rocketchat:emoji@1.0.0
 rocketchat:emoji-custom@1.0.0
 rocketchat:emoji-emojione@0.0.1
@@ -150,8 +140,6 @@ rocketchat:error-handler@1.0.0
 rocketchat:favico@0.0.1
 rocketchat:file@0.0.1
 rocketchat:file-upload@0.0.1
-rocketchat:github-enterprise@0.0.1
-rocketchat:gitlab@0.0.1
 rocketchat:google-vision@0.0.1
 rocketchat:highlight-words@0.0.1
 rocketchat:i18n@0.0.1
@@ -162,7 +150,6 @@ rocketchat:importer-hipchat@0.0.1
 rocketchat:importer-hipchat-enterprise@1.0.0
 rocketchat:importer-slack@0.0.1
 rocketchat:integrations@0.0.1
-rocketchat:internal-hubot@0.0.1
 rocketchat:irc@0.0.2
 rocketchat:issuelinks@0.0.1
 rocketchat:katex@0.0.1
@@ -191,7 +178,6 @@ rocketchat:postcss@1.0.0
 rocketchat:push-notifications@0.0.1
 rocketchat:reactions@0.0.1
 rocketchat:sandstorm@0.0.1
-rocketchat:slackbridge@0.0.1
 rocketchat:slashcommands-archive@0.0.1
 rocketchat:slashcommands-asciiarts@0.0.1
 rocketchat:slashcommands-create@0.0.1
@@ -228,7 +214,6 @@ rocketchat:ui-vrecord@0.0.1
 rocketchat:version@1.0.0
 rocketchat:videobridge@0.2.0
 rocketchat:webrtc@0.0.1
-rocketchat:wordpress@0.0.1
 routepolicy@1.0.12
 service-configuration@1.0.11
 session@1.1.7
@@ -240,7 +225,6 @@ spacebars@1.0.15
 spacebars-compiler@1.1.3
 srp@1.0.10
 standard-minifier-js@2.2.1
-steffo:meteor-accounts-saml@0.0.1
 tap:i18n@1.8.2
 templating@1.3.2
 templating-compiler@1.3.3
@@ -252,7 +236,6 @@ ttp:talk@0.0.1
 twitter-oauth@1.2.0
 ui@1.0.13
 underscore@1.0.10
-universe:i18n@1.15.1
 url@1.1.0
 webapp@1.4.0
 webapp-hashing@1.0.9
