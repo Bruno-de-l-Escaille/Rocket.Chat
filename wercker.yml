@@ -1,14 +1,14 @@
 box: debian
-services:
-  - id: mongo
-    name: mongo
-
-build:
   env:
     MONGO_URL: mongodb://mongo:27017/talk
     ROOT_URL: http://localhost:3000
     PORT: 3000
     DEPLOY_METHOD : docker
+services:
+  - id: mongo
+    name: mongo
+
+build:
 
   steps:
     - script:
