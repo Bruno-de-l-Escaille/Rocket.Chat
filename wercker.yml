@@ -1,9 +1,5 @@
 box: debian
-  env:
-    MONGO_URL: mongodb://mongo:27017/talk
-    ROOT_URL: http://localhost:3000
-    PORT: 3000
-    DEPLOY_METHOD : docker
+
 services:
   - id: mongo
     name: mongo
@@ -29,5 +25,11 @@ build:
 
     - script:
         name: Build App
-        code: | 
+        code: |
+
+          export MONGO_URL=mongodb://mongo:27017/talk
+          export ROOT_URL=http://localhost:3000
+          export PORT=3000
+          export DEPLOY_METHOD=docker
+
           meteor -c "build --server-only /home/meteor/build" meteor
