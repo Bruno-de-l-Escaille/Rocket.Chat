@@ -11,6 +11,7 @@ build:
         name: Install basic packages
         code: |
             apt-get update && \
+            apt-get install git -y && \
             apt-get install -y git curl bzip2 gnupg libcap2-bin && \
             (curl https://deb.nodesource.com/setup_4.x | bash) && \
             apt-get install -y jq && \
@@ -21,12 +22,7 @@ build:
             apt-get clean && \
 
             rm -Rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
-            
-    - script:
-        name: install git
-        code: |
-            apt-get update
-            apt-get install git -y
+
     - add-ssh-key:
         keyname: KEY_NAME
         host: github.com
