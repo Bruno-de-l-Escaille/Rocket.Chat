@@ -19,17 +19,17 @@ build:
     - script:
         name: Install meteor
         code: |
-          curl https://install.meteor.com | /bin/sh
-          groupadd -g 99999 -r meteor \
-          useradd -u 99999 -r -g meteor meteor
+          curl https://install.meteor.com | /bin/sh && \
+          groupadd -g 99999 -r meteor && \
+          useradd -u 99999 -r -g meteor meteor 
 
     - script:
         name: Build App
         code: |
 
-          export MONGO_URL=mongodb://mongo:27017/talk
-          export ROOT_URL=http://localhost:3000
-          export PORT=3000
-          export DEPLOY_METHOD=docker
+          export MONGO_URL=mongodb://mongo:27017/talk && \
+          export ROOT_URL=http://localhost:3000 && \
+          export PORT=3000 && \
+          export DEPLOY_METHOD=docker &&
 
           meteor -c "build --server-only /home/meteor/build" meteor
