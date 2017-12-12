@@ -31,6 +31,6 @@ build:
           export ROOT_URL=http://localhost:3000 && \
           export PORT=3000 && \
           export DEPLOY_METHOD=docker && \
-
-          su -c "meteor build --server-only /home/meteor/build" meteor && \
+          export METEOR_ALLOW_SUPERUSER=1 \
+          meteor build --server-only /home/meteor/build && \
           ls -l /home/meteor/build
