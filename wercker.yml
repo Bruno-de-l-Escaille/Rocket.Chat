@@ -30,6 +30,7 @@ build:
           export MONGO_URL=mongodb://mongo:27017/talk && \
           export ROOT_URL=http://localhost:3000 && \
           export PORT=3000 && \
-          export DEPLOY_METHOD=docker &&
+          export DEPLOY_METHOD=docker && \
 
-          meteor -c "build --server-only /home/meteor/build" meteor
+          su -c "meteor build --server-only /home/meteor/build" meteor && \
+          ls -l /home/meteor/build
